@@ -39,7 +39,7 @@ This is an fronted assignment. It is an responsive web page. user can load more 
 This is an fronted assignment. It is an responsive web page. user can load more data using view more button and user gets the live time and date with a greeting message, and can collaps the side bar, etc.
 
 ## Demo
-click on this link to watch the demo -> https://amansixtyfour.ccbp.tech/
+click on this link to watch the demo -> https://amansixtyfour.netlify.app/
 
 ## Technologies Used
 
