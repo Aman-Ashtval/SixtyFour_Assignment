@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# SixtyFour Data Intelligence LLP Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an fronted assignment. It is an responsive web page. user can load more data using view more button and user gets the live time and date with a greeting message, and can collaps the side bar, etc.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Screen Shorts
 
-### `npm start`
+- Large Device and Extra Large Devices
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Screenshot](./screen-shorts/lg-device-1.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Screenshot](./screen-shorts/lg-device-2.png)
 
-### `npm test`
+- Medium Device
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screenshot](./screen-shorts/medium-device.png)
 
-### `npm run build`
+- Small Device
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Screenshot](./screen-shorts/small-device-1.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot](./screen-shorts/small-device-2.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screenshot](./screen-shorts/small-device-3.png)
 
-### `npm run eject`
+## Components Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Home.js -> home component contains all other componets and render the UI like Header, LibraryCard, CardSlider etc.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Header.js -> It holds the Side Bar that can be collaps and current date and time is also render and flip back library cards.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- CardSlider.js -> this is an card slider dine by using React Slick. user can display multyple CardSlider by clicking on View More button.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- RecentReleases -> it holdes the timeline based on selected option.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## About
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This is an fronted assignment. It is an responsive web page. user can load more data using view more button and user gets the live time and date with a greeting message, and can collaps the side bar, etc.
 
-### Code Splitting
+## Demo
+click on this link to watch the demo -> https://amansixtyfour.ccbp.tech/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Technologies Used
 
-### Analyzing the Bundle Size
+List the technologies, libraries, and frameworks used in your project. For example:
+- React
+- React Slick
+- React Icons 
+- Rect Hooks
+- Bootstrap
+- CSS Animations, etc.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Features
 
-### Making a Progressive Web App
+- Feature 1: I have build a timer logic thats render the current date and time
+- Feature 2: I have made side bard that a user can collaps.
+- Feature 3: When a user mouse over on the library card it show flip animation.
+- Feature 4: When a user change the device width acording to device width it becomes responsive.
+- Feature 5: When a user click on View More button then multipal Slider renders as per choise.
+- etc.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Installation
 
-### Advanced Configuration
+install all the dependencies using 'npm install'
+run the application using 'npm start'
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

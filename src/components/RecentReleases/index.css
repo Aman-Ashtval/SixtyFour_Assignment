@@ -1,0 +1,72 @@
+.recent-p{
+    color: #29a5f1;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.select{
+    min-width: 150px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 450;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #dcdada;
+    border-radius: 5px;
+}
+
+.select:hover{
+    cursor: pointer;
+}
+
+.hr-line{
+    width: 100%;
+    border: 1px solid #d1d0d0;
+    border-radius: 25px;
+}
+
+/* recent releases card style goes here */
+.recent-card-bg{
+    padding: 16px;
+    margin-top: 48px;
+    border-left: 2px solid #d1d0d0;
+    position: relative;
+}
+
+.dot-button{
+    color: #d1d0d0;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin-left: -37px;
+    margin-top: -36px;
+    background-color: #ffffff;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recent-date{
+    color: #29a5f1;
+    font-size: 14px;
+    font-weight: 450;
+    margin: 0px;
+}
+
+.recent-title{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 550;
+    margin: 8px 0px;
+}
+
+.recent-desription{    
+    color: #5b666e;
+    font-size: 14px;
+    font-weight: 450;
+    opacity: 0.6;
+    margin: 0px;
+}
